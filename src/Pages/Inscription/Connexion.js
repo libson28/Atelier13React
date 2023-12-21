@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
+import './Connexion.css';
 
-function Login() {
+function Connexion() {
   return (
     <>
     <Container>
@@ -22,4 +23,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Connexion;

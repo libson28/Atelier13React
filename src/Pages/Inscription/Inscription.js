@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
-import './Inscriptin.css';
+import './Inscription.css';
 
 function Inscription() {
   return (
     <>
-    <Container>
+    <Container className='formulaire'>
       <Form.Group className="mb-3 mt-5">
         <Form.Label> Nom</Form.Label>
         <Form.Control placeholder=" votre nom"/>
