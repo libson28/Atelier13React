@@ -14,6 +14,9 @@ function Login() {
         <Form.Label> Mot de passe</Form.Label>
         <Form.Control placeholder=" votre mot de passe"/>
       </Form.Group>
+      <Form.Group>
+        <button className='btn btn-primary' >Connecter</button>
+      </Form.Group>
       </Container>
     </>
   );
